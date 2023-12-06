@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1153px;
+  height: 631px;
+}
+.main a {
+  all: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 30px;
+  background-color: #A1A1A1;
+  margin-top: 34px;
+  cursor: pointer;
+}/*# sourceMappingURL=homePage.css.map */

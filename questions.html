@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Questions/questionStyle.css"/>
+    <title>Questions</title>
+</head>
+<body>
+    <div class="main">
+        <div class="item item1"">
+            <h2 id="nameSurName">Имя и Фамилия</h2>
+        </div>
+
+        <div class="item item2">
+            <h3>Какого цвета бананы?</h3>
+                <label><input id="0" value='Красные' class="radio1" name="radio1" type="radio">Красные </label>
+                <label><input id="1" value='Фиолетовые' class="radio1" name="radio1" type="radio">Фиолетовые</label>
+                <label><input id="2" value='Желтые' class="radio1" name="radio1" type="radio">Желтые</label>
+                <label><input id="3" value='Какие еще бананы?' class="radio1" name="radio1" type="radio">Какие еще бананы?</label> 
+        </div>
+
+        <div class="item item3">
+            <h3>Буква "a" гласная или согласная?</h3>  
+                <label><input id='0' class="radio2" name="radio2" type="radio">Гласная</label>
+                <label><input id='1' class="radio2" name="radio2" type="radio">Согласная</label>
+                <label><input id='2' class="radio2" name="radio2" type="radio">Это цифра!</label>
+                <label><input id='3' class="radio2" name="radio2" type="radio">Автомобиль</label>
+        </div>
+
+        <div class="item item4">
+            <h3>Какие монеты есть в Россий?</h3>
+                <label><input id="0" class="checkbox" type='checkbox'>1</label>
+                <label><input id="1" class="checkbox" type='checkbox'>2</label>
+                <label><input id="2" class="checkbox" type='checkbox'>3</label>
+                <label><input id="3" class="checkbox" type='checkbox'>4</label>
+                <label><input id="4" class="checkbox" type='checkbox'>5</label>
+        </div>
+        <div class="item item5">
+            <a id="linkSend">Отправить отчет</a>
+        </div>
+    </div>
+    <script type='module' src = "./Questions/questions.js"></script>                     
+</body>
+</html>

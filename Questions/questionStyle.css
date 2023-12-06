@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  width: 1200px;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.main .item {
+  padding: 10px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+.main .item1 {
+  grid-column: 1/6;
+  text-align: center;
+}
+.main .item5 {
+  grid-column: 1/6;
+  text-align: center;
+}
+.main .item5 a {
+  all: unset;
+  display: flex;
+  align-items: center;
+  width: 150px;
+  height: 35px;
+  background-color: chocolate;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.main input {
+  cursor: pointer;
+  margin-right: 7px;
+}
+.main label {
+  cursor: pointer;
+}
+.main h3 {
+  margin-bottom: 10px;
+}/*# sourceMappingURL=questionStyle.css.map */
