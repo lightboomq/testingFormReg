@@ -11,12 +11,12 @@ linkRegistration.addEventListener('click',()=>{
         console.log('Заполните все поля')
         return false
     }
-    if(regExpMail.test(mailInput.value)!==true){
-        console.log('Недопустимый формат почты');
+    if(mailInput.value!==localStorage.getItem('userMail')){
+        console.log('Не правильная почта');
         return false
     }
-    if(regExpPasswordInput.test(passwordInput.value)){
-        console.log('Недопустиый формат Пароля');
+    if(passwordInput.value!==localStorage.getItem('userPassword')){
+        console.log('Не правильный пароль');
         return false
     }
     else{
