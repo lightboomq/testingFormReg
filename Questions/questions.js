@@ -29,5 +29,5 @@ linkSend.addEventListener('click',()=>{
     linkSend.href='result.html'
 })
 
-//localStorage.clear()
+
 

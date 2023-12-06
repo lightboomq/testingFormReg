@@ -9,7 +9,7 @@ const passwordInput = document.getElementById('passwordInput')
 const regExpNameAndSurNameInput = /[^а-я a-z]/gi
 const regExpAgeInput = /[^0-9]/g
 const regExpPasswordInput = /[а-я]/i
-const regExpMail = /\w+(\.|_|\d+)\w+@(gmail|mail|yandex|yahoo)\.(com|ru)$/g
+const regExpMail = /\w+(\.|_|\d+|\w)\w+@(gmail|mail|yandex|yahoo)\.(com|ru)$/g
 
 const user = {}
 
